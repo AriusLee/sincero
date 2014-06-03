@@ -1947,3 +1947,45 @@ text-align:center;
 }
 .art-blockheader .t, .art-vmenublockheader .t {white-space: nowrap;}
 /* End Additional CSS Styles */
+
+.sidebar {
+  width: 20%;
+  margin-right: 5%;
+  float: left;
+  margin-top: 25px;
+  margin-bottom: 45px;
+}
+
+.product-category a {
+  display: block;
+  font-size: 16px;
+  color: #999 !important;
+  margin-bottom: 12px;
+}
+
+.product-category a.active {
+  color: #ed1c24 !important;
+}
+
+.product-catalog {
+  margin-top: 0;
+  margin-bottom: 65px;
+}
+
+.product-catalog td {
+  padding-bottom: 35px;
+}
+
+.product-catalog img {
+  max-width: 200px !important;
+}
+
+.product-catalog h4 {
+  color: #333;
+}
+
+.product-catalog p {
+  font-size: 12px !important;
+  color: #666;
+  line-height: 1.5em;
+}

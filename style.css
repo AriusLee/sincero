@@ -85,7 +85,7 @@ ul.art-vmenu a
 .art-slogan, .art-slogan a, .art-slogan a:link, .art-slogan a:visited, .art-slogan a:hover,
 .art-postheader, .art-postheader a, .art-postheader a:link, .art-postheader a:visited, .art-postheader a:hover
 {
-   font-size: 32px;
+   font-size: 26px;
    font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
    font-style: normal;
@@ -1364,7 +1364,7 @@ pre
 {
    color: #404040;
    margin: 10px 0 0 25px;
-   font-size: 32px;
+   font-size: 21px;
    font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
    font-style: normal;
@@ -1988,4 +1988,29 @@ text-align:center;
   font-size: 12px !important;
   color: #666;
   line-height: 1.5em;
+}
+
+.events-wrapper .newsdate {
+  float: none;
+  display: inline-block;
+  margin: 0;
+}
+
+.events-wrapper {
+  width: 100%;
+}
+
+.events-wrapper td, .events-wrapper th {
+  padding: 10px 10px 15px;
+  text-align: left;
+}
+
+.events-wrapper th {
+  border-bottom: 1px solid #EEE;
+}
+
+.date-span {
+  display: inline-block;
+  vertical-align:top;
+  line-height: 60px;
 }

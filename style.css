@@ -2096,3 +2096,18 @@ transform: rotate(357deg);
   position: relative;
   z-index: 3;
 }
+
+.about-wrapper {
+  width: 72%;
+  padding-right: 3%;
+  float: right;
+}
+
+.about-wrapper h3 {
+  margin-top: 0;
+}
+
+.about-wrapper p {
+  line-height: 1.6em;
+  margin-bottom: 25px;
+}

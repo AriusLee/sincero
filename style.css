@@ -2014,3 +2014,85 @@ text-align:center;
   vertical-align:top;
   line-height: 60px;
 }
+
+.gallery-wrapper {
+  padding: 25px 0 0;
+}
+
+.gallery-item {
+  display: inline-block;
+  width: 22.5%;
+  margin-right: 2%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gallery-item p {
+  padding-top: 6px;
+}
+
+.gallery-item .img-holder {
+  padding: 4px;
+  border: 1px solid #CCC;
+  background: #FFF;
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+}
+
+.album-item {
+  position: relative;
+}
+
+.album-item:before {
+  content: "";
+  background: #FFF;
+  border: 1px solid #CCC;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  top:0;
+  left: 0;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -webkit-transition: -webkit-transform 0.1s;
+  -ms-transform: rotate(2deg); /* IE 9 */
+-webkit-transform: rotate(2deg); /* Chrome, Safari, Opera */
+transform: rotate(2deg);
+}
+
+.album-item:after {
+  content: "";
+  background: #FFF;
+  border: 1px solid #CCC;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top:0;
+  z-index: 1;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.25);
+  -ms-transform: rotate(358deg); /* IE 9 */
+-webkit-transform: rotate(358deg); /* Chrome, Safari, Opera */
+transform: rotate(358deg);
+}
+
+.gallery-item:hover .album-item:before {
+  -ms-transform: rotate(3deg); /* IE 9 */
+-webkit-transform: rotate(3deg); /* Chrome, Safari, Opera */
+transform: rotate(3deg);
+}
+
+.gallery-item:hover .album-item:after {
+  -ms-transform: rotate(357deg); /* IE 9 */
+-webkit-transform: rotate(357deg); /* Chrome, Safari, Opera */
+transform: rotate(357deg);
+}
+
+.img-holder img {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 3;
+}
